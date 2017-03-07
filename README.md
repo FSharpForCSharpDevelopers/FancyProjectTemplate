@@ -6,19 +6,11 @@ This repository is related to this blog post [Creating a F# Project Template](ht
 ## Using the Project Template In Visual Studio
 1. Compile this project 
 2. Copy the resulting zip file, bin\debug\ProjectTemplates\FSharp\1033\FancyProjectTemplate.zip 
-![](http://images.fsharpforcsharpdevelopers.com/posts/2181/template_output.png)
 3. Paste the file in c:\users\username\documents\visual studio 2015\Templates directory. 
-
-![](http://images.fsharpforcsharpdevelopers.com/posts/2181/copy_template_to_templates_directory.png)
-
 4. Open Visual Studio
 5. From the File menu select New followed by Project. 
 6. Navigate to the F# Node in the "New Project" dialog.
 7. Select Fancy F# Library 
-                                                                                   
-![](http://images.fsharpforcsharpdevelopers.com/posts/2181/FancyFSharpLibraryDialog.png)
-
-
 8. Enter a name of your project
 9. Click "OK"
 
