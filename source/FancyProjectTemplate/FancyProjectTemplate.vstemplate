@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Fancy F# Library</Name>
+    <Description>Creates a Fancy F# Library Project</Description>
+    <Icon>FancyProjectTemplate.ico</Icon>
+    <ProjectType>FSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>b604e5d6-e82b-4088-a4f2-01e7c881bf79</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>FancyLibrary</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.fsproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.fs">AssemblyInfo.fs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">Library1.fs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">Script.fsx</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
